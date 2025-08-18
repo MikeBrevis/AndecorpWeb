@@ -5,3 +5,49 @@
     text-decoration: none;
 }
 
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #101010;
+}
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.logo_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.logo_container h1 {
+    font-family: 'Anton', sans-serif;
+    color: #FF9B00;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 50px;
+    letter-spacing: 2px;
+    transform: scaleX(1.2);
+    margin: 40px;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    color: #FF9B00;
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
+    padding: 0px 20px;
+    display: table;
+}
+
