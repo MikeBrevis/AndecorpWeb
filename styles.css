@@ -1,30 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
-
 .header {
     width: 100%;
     height: 80px;
-    display: block;
     background-color: #101010;
 }
 
 .inner_header {
-    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
     height: 100%;
-    display: block;
-    margin: 0 auto;
-    background-color: red;
+    background-color: #101010;
 }
 
 .logo_container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
+    float: left;
     height: 100%;
+    display: table;
 }
 
 .logo_container h1 {
@@ -36,18 +28,18 @@
     letter-spacing: 2px;
     transform: scaleX(1.2);
     margin: 40px;
+    float: right;
 }
 
 .navigation{
-    float: right;
-    height: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
 }
 
-.navigation a {
+.navigation a{
     color: #FF9B00;
     font-family: 'Anton', sans-serif;
     font-size: 18px;
-    padding: 0px 20px;
-    display: table;
 }
 

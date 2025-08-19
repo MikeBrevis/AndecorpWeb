@@ -1,0 +1,25 @@
+
+.header-main {
+    width: 100%;
+    height: 60px;
+    background-color: #44443c;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-main div {
+    height: 30px;
+    width: 100px;
+}
+
+.header-main .div-1 {
+    background-color: #11be37;
+}
+
+.header-main .div-2 {
+    background-color: #9e0707;
+}
+
+.header-main .div-3 {
+    background-color: #FF9B00;
+}
