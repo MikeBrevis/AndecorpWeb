@@ -1,6 +1,6 @@
  .main_header {
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: #57564F;
     display: flex;
     }
@@ -30,7 +30,7 @@
 
 .logo_container h1 {
     font-family: 'Anton', sans-serif;
-    color: #FF9B00;
+    color: #ffb512;
     font-size: 50px;
     letter-spacing: 2px;
     transform: scaleX(1.2);
@@ -39,7 +39,7 @@
 
 /* button youtube styles */ 
 button {
-  background: #FF9B00;
+  background: #ffb512;
   font-family: 'Anton', sans-serif;;
   padding: 0.6em 1.3em;
   font-weight: 900;
@@ -58,6 +58,28 @@ button:hover {
 button:active {
   transform: translate(0.05em, 0.05em);
   box-shadow: 0.05em 0.05em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #151515;
+}
+
+.nav_list {
+    display: flex;
+    gap: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.nav_list a {
+    color: #f7f7f7;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+    font-size: 18px;
 }
 
 
