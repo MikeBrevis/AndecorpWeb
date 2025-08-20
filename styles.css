@@ -1,45 +1,63 @@
-.header {
+ .main_header {
     width: 100%;
-    height: 80px;
-    background-color: #101010;
-}
+    height: 100px;
+    background-color: #57564F;
+    display: flex;
+    }
 
 .inner_header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
-    height: 100%;
-    background-color: #101010;
+    width: 100%; /*makes it responsive*/
+    margin: 0 75px;
+}
+
+.logo_container img {
+    height: 80px;
+    width: auto;
+}
+
+.social_icons_container img{
+    height: 30px ;
+    width: auto;
 }
 
 .logo_container {
-    float: left;
-    height: 100%;
-    display: table;
+    display: flex;
+    align-items: center;
 }
 
 .logo_container h1 {
     font-family: 'Anton', sans-serif;
     color: #FF9B00;
-    display: table-cell;
-    vertical-align: middle;
     font-size: 50px;
     letter-spacing: 2px;
     transform: scaleX(1.2);
-    margin: 40px;
-    float: right;
+    margin: 0 30px;
 }
 
-.navigation{
-    display: flex;
-    padding: 0;
-    margin: 0;
+/* button youtube styles */ 
+button {
+  background: #FF9B00;
+  font-family: 'Anton', sans-serif;;
+  padding: 0.6em 1.3em;
+  font-weight: 900;
+  font-size: 18px;
+  border: 3px solid black;
+  border-radius: 0.4em;
+  box-shadow: 0.1em 0.1em;
+  cursor: pointer;
 }
 
-.navigation a{
-    color: #FF9B00;
-    font-family: 'Anton', sans-serif;
-    font-size: 18px;
+button:hover {
+  transform: translate(-0.05em, -0.05em);
+  box-shadow: 0.15em 0.15em;
 }
+
+button:active {
+  transform: translate(0.05em, 0.05em);
+  box-shadow: 0.05em 0.05em;
+}
+
 
