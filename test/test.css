@@ -1,25 +1,30 @@
-
-.header-main {
+body {
     width: 100%;
-    height: 60px;
-    background-color: #44443c;
-    display: flex;
-    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    place-items: center;
 }
 
-.header-main div {
-    height: 30px;
-    width: 100px;
+.main_container {
+    width: 800px;
+    height: 800px;
+    position: relative;
 }
 
-.header-main .div-1 {
-    background-color: #11be37;
+.main_container img {
+    height: 100%;
+    width: auto;
+    opacity: 0.8;
 }
 
-.header-main .div-2 {
-    background-color: #9e0707;
-}
-
-.header-main .div-3 {
-    background-color: #FF9B00;
+.image_text_container .text_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
 }
