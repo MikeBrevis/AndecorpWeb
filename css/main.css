@@ -1,4 +1,5 @@
 /*main base styles*/
 @import url("./base/reset.css");
 @import url("./layout/header.css");
-@import url("./layout/mainContainer.css");
+@import url("./layout/banner_section.css");
+@import url("./layout/about_us_section.css");
